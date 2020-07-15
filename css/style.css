@@ -1,0 +1,141 @@
+/* Project by Nel Hahsira */
+
+*,
+*::before,
+*::after {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: Montserrat, sans-serif;
+   font-size: 1rem;
+   line-height: 1.5;
+   padding: 1.5rem 0;
+}
+
+#main {
+   background-color: #ecf0f1;
+   color: #2d3436;
+   padding: 2.5rem 1.25rem;
+}
+
+#title {
+   text-align: center;
+   font-size: 1.3rem;
+   padding-bottom: 1rem;
+}
+
+#title p {
+   font-size: 1rem;
+}
+
+#img-div {
+   background-color: #ffffff;
+   width: 100%;
+   height: auto;
+}
+
+#img-div img {
+   max-width: 1024px;
+   height: 623px;
+   display: block;
+   margin: auto;
+}
+
+#img-div p {
+   text-align: center;
+   font-size: 0.9rem;
+   padding: 0.75rem;
+}
+
+#tribute-info {
+   margin: auto;
+   max-width: 600px;
+}
+
+#tribute-info h2 {
+   text-align: center;
+   padding: 2rem 0 2.5rem;
+}
+
+#tribute-info ul {
+   margin-bottom: 2rem;
+}
+
+#tribute-info ul li {
+   font-size: 0.9rem;
+   padding: 0.75rem 0;
+}
+
+.quote,
+.author {
+   font-style: italic;
+   font-size: 0.9rem;
+}
+
+.author {
+   margin-top: 0.5rem;
+}
+
+.author::before {
+   content: "-- ";
+}
+
+.link-text {
+   text-align: center;
+   font-weight: bold;
+   margin: 4rem auto 0;
+   width: 100%;
+}
+
+.link-text a {
+   color: #3498db;
+}
+
+@media (max-width: 600px) {
+   #img-div img {
+      max-width: 100%;
+      height: 300px;
+   }
+
+   ul {
+      padding: 0 1rem;
+   }
+}
+
+/*	Extra small devices (phones, 600px and down)	*/
+@media only screen and (max-width: 600px) {
+   .container {
+      min-width: 576px;
+   }
+}
+
+/*	Small devices (portrait tablets and large phones, 600px and up)	*/
+@media only screen and (min-width: 600px) {
+   .container {
+      max-width: 576px;
+   }
+}
+
+/*	Medium devices (landscape tablets, 768px and up)	*/
+@media only screen and (min-width: 768px) {
+   .container {
+      max-width: 720px;
+   }
+}
+
+/*	Large devices (laptops/desktops, 992px and up)	*/
+@media only screen and (min-width: 992px) {
+   .container {
+      max-width: 960px;
+   }
+}
+
+/*	Extra large devices (large laptops and desktops, 1200px and up)	*/
+@media only screen and (min-width: 1200px) {
+   .container {
+      max-width: 1140px;
+   }
+}
